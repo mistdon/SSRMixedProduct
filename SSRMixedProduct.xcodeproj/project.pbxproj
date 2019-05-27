@@ -19,6 +19,7 @@
 		3BC3ACA7229BD17800B14EFC /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3ACA6229BD17800B14EFC /* DateManager.m */; };
 		3BC3ACAB229BF02A00B14EFC /* DateManager+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3ACAA229BF02A00B14EFC /* DateManager+Formatter.m */; };
 		3BC3ACAE229BF0A600B14EFC /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3ACAD229BF0A600B14EFC /* NSString+Formatter.m */; };
+		3BC3ACB0229BFD2F00B14EFC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3ACAF229BFD2F00B14EFC /* TableViewController.swift */; };
 		916E69C5B5CB7E737B15D68A /* Pods_SSRMixedProduct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30CFE8EB370C1ECF055584C /* Pods_SSRMixedProduct.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		3BC3ACAA229BF02A00B14EFC /* DateManager+Formatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DateManager+Formatter.m"; sourceTree = "<group>"; };
 		3BC3ACAC229BF0A600B14EFC /* NSString+Formatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Formatter.h"; sourceTree = "<group>"; };
 		3BC3ACAD229BF0A600B14EFC /* NSString+Formatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Formatter.m"; sourceTree = "<group>"; };
+		3BC3ACAF229BFD2F00B14EFC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E30CFE8EB370C1ECF055584C /* Pods_SSRMixedProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSRMixedProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 				3BC3AC89229BC75C00B14EFC /* ViewController.h */,
 				3BC3AC8A229BC75C00B14EFC /* ViewController.m */,
 				3BC3ACA3229BCE5800B14EFC /* PersonalViewController.swift */,
+				3BC3ACAF229BFD2F00B14EFC /* TableViewController.swift */,
 				3BC3AC8C229BC75C00B14EFC /* Main.storyboard */,
 				3BC3AC8F229BC75D00B14EFC /* Assets.xcassets */,
 				3BC3AC91229BC75D00B14EFC /* LaunchScreen.storyboard */,
@@ -239,6 +242,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SSRMixedProduct/Pods-SSRMixedProduct-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -247,6 +251,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -266,6 +271,7 @@
 				3BC3ACA2229BCD4600B14EFC /* NSDate+Formatter.m in Sources */,
 				3BC3ACAE229BF0A600B14EFC /* NSString+Formatter.m in Sources */,
 				3BC3AC8B229BC75C00B14EFC /* ViewController.m in Sources */,
+				3BC3ACB0229BFD2F00B14EFC /* TableViewController.swift in Sources */,
 				3BC3ACAB229BF02A00B14EFC /* DateManager+Formatter.m in Sources */,
 				3BC3ACA7229BD17800B14EFC /* DateManager.m in Sources */,
 				3BC3AC96229BC75D00B14EFC /* main.m in Sources */,

@@ -13,5 +13,7 @@
 - (void)managerString:(NSString *)dateString{
     NSLog(@"dateString -> %@",dateString);
 }
-
+- (void)managerOnlyOCDate{
+    NSLog(@"%s",__func__);
+}
 @end

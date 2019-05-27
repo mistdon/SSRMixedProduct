@@ -10,7 +10,7 @@
 
 @implementation NSDate (Formatter)
 
-- (void)printCurrentDate{
+- (void)currentDate{
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:@"yyyy-MM-dd"];
     NSLog(@"%@",[formatter stringFromDate:self]);

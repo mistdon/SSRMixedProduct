@@ -1,24 +1,28 @@
 PODS:
+  - MJRefresh (3.2.0)
   - ReactiveCocoa (10.0.0):
     - ReactiveSwift (~> 6.0)
   - ReactiveSwift (6.0.0)
   - RxSwift (5.0.0)
 
 DEPENDENCIES:
+  - MJRefresh
   - ReactiveCocoa
   - RxSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - MJRefresh
     - ReactiveCocoa
     - ReactiveSwift
     - RxSwift
 
 SPEC CHECKSUMS:
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   ReactiveCocoa: 6d4c37ba236f5d9a7a55b2172cd09f19ba85f574
   ReactiveSwift: 24b7ed245617bbfd30ee0c87779b6c64ac1b4518
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
 
-PODFILE CHECKSUM: afcd06242ebc84ed706c1f1dff06d10f8888581d
+PODFILE CHECKSUM: 1cc8bf01707d4f0276f55598bb82ac52bd38ddd2
 
 COCOAPODS: 1.5.3

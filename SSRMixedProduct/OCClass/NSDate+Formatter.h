@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSDate (Formatter)
 
-- (void)printCurrentDate;
+- (void)currentDate;
 
 @end
 

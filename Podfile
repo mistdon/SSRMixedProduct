@@ -6,6 +6,7 @@ target 'SSRMixedProduct' do
   use_frameworks!
   pod 'ReactiveCocoa'
   pod 'RxSwift'
+  pod 'MJRefresh'
   # Pods for SSRMixedProduct
 
 end
