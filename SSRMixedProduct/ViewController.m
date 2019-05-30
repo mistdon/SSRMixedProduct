@@ -34,8 +34,12 @@
     btn2.backgroundColor = UIColor.redColor;
     [btn2 addTarget:self action:@selector(tapAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn2];
+    
+    
+
 }
 - (void)tapAction:(id)sender{
+    
     TableViewController *vc = [[TableViewController alloc] init];
     [self.navigationController showViewController:vc sender:nil];
 }

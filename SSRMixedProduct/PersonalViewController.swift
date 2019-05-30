@@ -26,7 +26,6 @@ class PersonalViewController: UIViewController {
         
         footer = MJRefreshFooter(refreshingTarget: self, refreshingAction: #selector(refresh(_:)))
         scrollView.mj_footer = footer
-    
     }
     @objc func refresh(_ sender: Any){
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 5) {

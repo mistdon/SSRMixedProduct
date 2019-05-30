@@ -1,12 +1,13 @@
 # SSRMixedProduct
-OC和Swift混编Demo
-- Xcode [10.2.1]
-- Swift [5.0]
-- OC [2.0]
+OC和Swift混编Demo,
+编译环境:
+  - Xcode [10.2.1]
+  - Swift [5.0]
+  - Objecive-C [2.0]
 
 Objective-C和Swift文件可以在一个项目中共存，这使的我们不管是在OC项目中还是Swift项目中，使用另外一种语言都变得简单可行。
 
-![OCBridgingWithSwift](/Users/shendong/Documents/github/SSRMixedProduct/sources/OCBridgingWithSwift.png)
+![OCBridgingWithSwift](sources/OCBridgingWithSwift.png)
 
 ### 配置
 
@@ -16,19 +17,22 @@ Objective-C和Swift文件可以在一个项目中共存，这使的我们不管�
 
 2. 在Target -> Build Setting中搜索module
 
-   ![](/Users/shendong/Documents/github/SSRMixedProduct/sources/searchModule.png)
-
-   
+   ![](sources/searchModule.png)
 
 3. 设置Defines Module No to YES
 
-   ![](/Users/shendong/Documents/github/SSRMixedProduct/sources/changeDefineModuleFromNoToYES.png)
+   ![](sources/changeDefineModuleFromNoToYES.png)
 
-** 关于Module，可以参考这篇文章[iOS静态库和动态库](https://juejin.im/post/5ce3ef94f265da1bce3da5b5)**
+**关于Module**，可以参考这篇文章[iOS静态库和动态库](https://juejin.im/post/5ce3ef94f265da1bce3da5b5)。
 
 ### OC中使用Swift文件
 
-OC中使用Swift文件，必须 import 'YourProjectName-Swift.h'，然后正常使用即可
+OC中使用Swift文件，必须 import 'YourProjectName-Swift.h', 然后正常使用即可.
+
+```objective-c
+#import "SSRMixedProduct-Swift.h"
+```
+
 
 #### 1. 自有类
 
@@ -53,7 +57,7 @@ OC中使用Swift文件，必须 import 'YourProjectName-Swift.h'，然后正常�
 
 ### Swift中使用OC文件
 
-在`YourProjectName-Bridging-Header.h`中添加需要引入的OC类，然后在Swift中直接引用，详见[Bridging-Header](SSRMixedProduct/SSRMixedProduct-Bridging-Header.h)
+在`YourProjectName-Bridging-Header.h`中添加需要引入的OC类，然后在Swift中直接引用，详见[Bridging-Header](SSRMixedProduct/SSRMixedProduct-Bridging-Header.h), 本例中为 `SSRMixedProduct-Bridging-Header.h`
 
 ```swift
 let manager = DateManager()
@@ -74,4 +78,4 @@ manager.managerString("SSRMixedProduct")
 
 Q: 更改了Bridging-Header.h文件的路径，提示找不到Header.h文件？
 
-A：Target -> Swift Complier - General -> Objecive-C Bridging header中显示的path, 根据实际更改即可。
+A：Target -> Build Settings -> Swift Complier - General -> Objecive-C Bridging header中显示的path, 根据实际更改即可。
