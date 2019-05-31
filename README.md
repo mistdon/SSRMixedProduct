@@ -79,3 +79,7 @@ manager.managerString("SSRMixedProduct")
 Q: 更改了Bridging-Header.h文件的路径，提示找不到Header.h文件？
 
 A：Target -> Build Settings -> Swift Complier - General -> Objecive-C Bridging header中显示的path, 根据实际更改即可。
+
+Q: 混编中需要使用的一些常量，应该放在哪里？
+
+A: AppObjcConstant.h\m文件中，既可以保留type，也可以在OC和swift中混用。
