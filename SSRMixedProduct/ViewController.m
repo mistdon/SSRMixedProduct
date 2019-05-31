@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
 #import "SSRMixedProduct-Swift.h"
+#import "AppObjcConstant.h"
 
 @interface ViewController ()
 
@@ -27,13 +27,14 @@
     [btn addTarget:self action:@selector(tapAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
-    
+    NSLog(@"%@",AppModuleName);
     UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn2 setTitle:@"Swift中使用MJRefresh" forState:UIControlStateNormal];
     btn2.frame = CGRectMake(100, 200, 200, 50);
     btn2.backgroundColor = UIColor.redColor;
     [btn2 addTarget:self action:@selector(tapAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn2];
+    
     
     
 
