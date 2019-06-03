@@ -68,13 +68,13 @@ OC中使用Swift文件，必须 import 'YourProjectName-Swift.h', 然后正常�
 
    OC的delegate直接在Swift中使用即可。注意delegate必须声明为nullable，具体见Optional。
 
-   delegate的声明, 见![](SSRMixedProduct/ObjcViewController.h)
+   delegate的声明, 见[delegate声明](./SSRMixedProduct/ObjcViewController.h)
 
-   delegate的实现, 见![](SSRMixedProduct/ObjcViewController.m)
+   delegate的实现, 见[delegate实现](./SSRMixedProduct/ObjcViewController.m)
 
 2. Block
 
-   ![](Docs/Blcoks.md)
+   [Blcoks](./Docs/Blcoks.md)
 
 ## 常见的宏
 `NS_SWIFT_UNAVALIABLE` 表示只希望该属性或者该方法只在OC中使用
