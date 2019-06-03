@@ -8,7 +8,17 @@
 
 #import "DateManager.h"
 
+static DateManager *manager = nil;
+
 @implementation DateManager
+
++ (instancetype)shared{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        manager = [[DateManager alloc] init];
+    });
+    return  manager;
+}
 
 - (void)managerString:(NSString *)dateString{
     NSLog(@"dateString -> %@",dateString);
