@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B32F9FD22A53EDD00FCAE61 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B32F9FC22A53EDD00FCAE61 /* BaseViewController.m */; };
+		3B32F9FF22A53EEC00FCAE61 /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32F9FE22A53EEC00FCAE61 /* DebugViewController.swift */; };
 		3BC3AC88229BC75C00B14EFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3AC87229BC75C00B14EFC /* AppDelegate.m */; };
 		3BC3AC8B229BC75C00B14EFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3AC8A229BC75C00B14EFC /* ViewController.m */; };
 		3BC3AC8E229BC75C00B14EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC3AC8C229BC75C00B14EFC /* Main.storyboard */; };
@@ -28,6 +30,9 @@
 /* Begin PBXFileReference section */
 		03EBABD5BDFA583E5A287624 /* Pods-SSRMixedProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSRMixedProduct.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSRMixedProduct/Pods-SSRMixedProduct.debug.xcconfig"; sourceTree = "<group>"; };
 		357F482585906794F57449F2 /* Pods-SSRMixedProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSRMixedProduct.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSRMixedProduct/Pods-SSRMixedProduct.release.xcconfig"; sourceTree = "<group>"; };
+		3B32F9FB22A53EDD00FCAE61 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3B32F9FC22A53EDD00FCAE61 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3B32F9FE22A53EEC00FCAE61 /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
 		3BC3AC83229BC75C00B14EFC /* SSRMixedProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSRMixedProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC3AC86229BC75C00B14EFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BC3AC87229BC75C00B14EFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +101,9 @@
 				3BC3AC87229BC75C00B14EFC /* AppDelegate.m */,
 				3BC3AC89229BC75C00B14EFC /* ViewController.h */,
 				3BC3AC8A229BC75C00B14EFC /* ViewController.m */,
+				3B32F9FB22A53EDD00FCAE61 /* BaseViewController.h */,
+				3B32F9FC22A53EDD00FCAE61 /* BaseViewController.m */,
+				3B32F9FE22A53EEC00FCAE61 /* DebugViewController.swift */,
 				3BFD83B622A1424400A5BA4A /* AppObjcConstant.h */,
 				3BFD83B722A1424400A5BA4A /* AppObjcConstant.m */,
 				3BCF3946229E8D320073D61C /* AppConstant.swift */,
@@ -284,7 +292,9 @@
 				3BC3ACB0229BFD2F00B14EFC /* TableViewController.swift in Sources */,
 				3BC3ACAB229BF02A00B14EFC /* DateManager+Formatter.m in Sources */,
 				3BC3ACA7229BD17800B14EFC /* DateManager.m in Sources */,
+				3B32F9FF22A53EEC00FCAE61 /* DebugViewController.swift in Sources */,
 				3BC3AC96229BC75D00B14EFC /* main.m in Sources */,
+				3B32F9FD22A53EDD00FCAE61 /* BaseViewController.m in Sources */,
 				3BC3AC9F229BC7D100B14EFC /* Hello.swift in Sources */,
 				3BC3ACA4229BCE5800B14EFC /* PersonalViewController.swift in Sources */,
 				3BC3AC88229BC75C00B14EFC /* AppDelegate.m in Sources */,

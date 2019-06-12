@@ -19,3 +19,6 @@
  */
 
 extern NSString *const AppModuleName;
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+

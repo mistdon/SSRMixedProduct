@@ -73,7 +73,8 @@ manager.managerString("SSRMixedProduct")
 - (void)managerOnlyOCDate NS_SWIFT_UNAVAILABLE("This method used only by OC.");
 ```
 
-
+## Swift中使用OC的宏
+    TODO....
 ## Q&A？
 
 Q: 更改了Bridging-Header.h文件的路径，提示找不到Header.h文件？
