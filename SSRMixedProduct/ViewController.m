@@ -41,7 +41,6 @@
 
 }
 - (void)tapAction:(id)sender{
-    
 //    TableViewController *vc = [[TableViewController alloc] init];
     DebugViewController *vc = [[DebugViewController alloc] init];
     [self.navigationController showViewController:vc sender:nil];

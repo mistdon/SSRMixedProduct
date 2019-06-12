@@ -25,6 +25,7 @@
 		3BCF3947229E8D320073D61C /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF3946229E8D320073D61C /* AppConstant.swift */; };
 		3BFD83B822A1424400A5BA4A /* AppObjcConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD83B722A1424400A5BA4A /* AppObjcConstant.m */; };
 		916E69C5B5CB7E737B15D68A /* Pods_SSRMixedProduct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30CFE8EB370C1ECF055584C /* Pods_SSRMixedProduct.framework */; };
+		A2BCB77522A56FFA002D6065 /* ObjcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BCB77422A56FFA002D6065 /* ObjcViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,8 @@
 		3BCF3946229E8D320073D61C /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		3BFD83B622A1424400A5BA4A /* AppObjcConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppObjcConstant.h; sourceTree = "<group>"; };
 		3BFD83B722A1424400A5BA4A /* AppObjcConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppObjcConstant.m; sourceTree = "<group>"; };
+		A2BCB77322A56FFA002D6065 /* ObjcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcViewController.h; sourceTree = "<group>"; };
+		A2BCB77422A56FFA002D6065 /* ObjcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcViewController.m; sourceTree = "<group>"; };
 		E30CFE8EB370C1ECF055584C /* Pods_SSRMixedProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSRMixedProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,6 +109,8 @@
 				3B32F9FE22A53EEC00FCAE61 /* DebugViewController.swift */,
 				3BFD83B622A1424400A5BA4A /* AppObjcConstant.h */,
 				3BFD83B722A1424400A5BA4A /* AppObjcConstant.m */,
+				A2BCB77322A56FFA002D6065 /* ObjcViewController.h */,
+				A2BCB77422A56FFA002D6065 /* ObjcViewController.m */,
 				3BCF3946229E8D320073D61C /* AppConstant.swift */,
 				3BC3ACA3229BCE5800B14EFC /* PersonalViewController.swift */,
 				3BC3ACAF229BFD2F00B14EFC /* TableViewController.swift */,
@@ -296,6 +301,7 @@
 				3BC3AC96229BC75D00B14EFC /* main.m in Sources */,
 				3B32F9FD22A53EDD00FCAE61 /* BaseViewController.m in Sources */,
 				3BC3AC9F229BC7D100B14EFC /* Hello.swift in Sources */,
+				A2BCB77522A56FFA002D6065 /* ObjcViewController.m in Sources */,
 				3BC3ACA4229BCE5800B14EFC /* PersonalViewController.swift in Sources */,
 				3BC3AC88229BC75C00B14EFC /* AppDelegate.m in Sources */,
 			);

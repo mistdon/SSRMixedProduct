@@ -60,11 +60,21 @@ OC中使用Swift文件，必须 import 'YourProjectName-Swift.h', 然后正常�
 在`YourProjectName-Bridging-Header.h`中添加需要引入的OC类，然后在Swift中直接引用，详见[Bridging-Header](SSRMixedProduct/SSRMixedProduct-Bridging-Header.h), 本例中为 `SSRMixedProduct-Bridging-Header.h`
 
 ```swift
-let manager = DateManager()
-manager.managerString("SSRMixedProduct")
+  let manager = DateManager()
+  manager.managerString("SSRMixedProduct")
 ```
 
+1. delegate
 
+   OC的delegate直接在Swift中使用即可。注意delegate必须声明为nullable，具体见Optional。
+
+   delegate的声明, 见[delegate声明](./SSRMixedProduct/ObjcViewController.h)
+
+   delegate的实现, 见[delegate实现](./SSRMixedProduct/ObjcViewController.m)
+
+2. Block
+
+   [Blcoks](./Docs/Blcoks.md)
 
 ## 常见的宏
 `NS_SWIFT_UNAVALIABLE` 表示只希望该属性或者该方法只在OC中使用
